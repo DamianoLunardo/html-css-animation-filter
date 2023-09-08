@@ -50,6 +50,14 @@
     filter:sepia(1) grayscale(1);
 }
 
+.ex-8-img {
+    transition: 2s;
+}
+.ex-8-img:hover {
+    border-radius: 30px;
+    filter: grayscale(1) sepia(1);
+}
+
 
 
 
