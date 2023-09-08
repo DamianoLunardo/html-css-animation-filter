@@ -91,6 +91,39 @@
     }
 }
 
+.ex-12-button:hover .ex-12-top-white {
+    animation: top 4s linear;
+}
+
+@keyframes top {
+    0% {
+        right: 10%;
+    }
+    50% {
+        left: 100%
+    }
+    100% {
+        left: 0; 
+    }
+}
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: bottom 4s linear;
+}
+
+@keyframes bottom {
+    0% {
+        right: 10%;
+    }
+    50% {
+        right: 100%;
+    }
+    100% {
+        right: 0; 
+    }
+}
+
+
+
 
 
 
