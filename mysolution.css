@@ -58,6 +58,15 @@
     filter: grayscale(1) sepia(1);
 }
 
+.ex-9-img {
+    transition: 5s;
+}
+.ex-9-img:hover {
+    border-radius: 30px;
+    filter: contrast(20) grayscale(2);
+    scale:2;
+}
+
 
 
 
